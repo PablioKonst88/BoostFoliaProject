@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 @font-face {
     font-family: Big Noodle Titling; /* Гарнитура шрифта */
     src: url(../fonts/BigNoodleTitling.ttf); /* Путь к файлу со шрифтом */
@@ -11,18 +15,24 @@ $wrapper_width:1010px;
 
 .header {
 background-color: #f8f6f6;
+width: 100%;
 
     &__wrap {
         display:flex;
-        justify-content: left;
+        justify-content: space-between;
         align-items: center;
+    }
+    &__left-div {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     &__logo_link {
             text-decoration: none;
         }
     &__logo_link svg{
-        fill:black;
+        stroke: black;
         margin-right: 25px;
     }
 
@@ -35,5 +45,101 @@ background-color: #f8f6f6;
         color: #696969;
         padding:57px 0 57px 0;
     }
+    &__burger_btn{
+        height: 22px;
+        width: 40px;
+        border: none;
+        background-color: none;
+    }
+    &__burger_btn svg{
+        fill: none;
+        stroke: #464646;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+        transition-delay: .1s;
+    }
+    &__burger_btn:hover svg{
+        stroke: #f38364;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+    }
 }
+.slider {
+    background-color: #353535;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    &__btn {
+        border:none;
+        background-color: transparent;
+        transition: 0.7s;      
+    }
+    &__btn svg {
+        stroke:#3a3939;
+        transition-delay: .1s;      
+    }
+    &__btn:hover svg {
+        stroke:#f38364;      
+    }
+
+    &__wrap {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        color: #d6d5d5;
+        height: 709px;
+        justify-content:flex-end ;
+    }
+
+    // .slider__title
+
+    &__title {
+        font-family: 'Big Noodle Titling';
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.15em;
+        
+       
+        
+    }
+
+    // .slider__text
+
+    &__text {
+        font-family: 'Big Noodle Titling';
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        padding:24px 0 167px 0;
+    }
+
+    // .slider__image
+
+    &__image {
+        background-color:transparent;
+    }
+
+    // .slider__bottom
+
+    &__bottom {
+
+        // .slider__bottom_text
+
+        &_text {
+            font-family: Roboto;
+            font-size: 12px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #ffffff;
+            padding:19px 0 45px 0;
+        }
+    }
+    
+}
+
+
+
+
 

@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Big Noodle Titling;
   /* Гарнитура шрифта */
@@ -14,18 +19,31 @@
 
 .header {
   background-color: #f8f6f6;
+  width: 100%;
 }
 
 .header__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__left-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__logo_link {
@@ -33,7 +51,7 @@
 }
 
 .header__logo_link svg {
-  fill: black;
+  stroke: black;
   margin-right: 25px;
 }
 
@@ -45,5 +63,103 @@
   letter-spacing: 0.1em;
   color: #696969;
   padding: 57px 0 57px 0;
+}
+
+.header__burger_btn {
+  height: 22px;
+  width: 40px;
+  border: none;
+  background-color: none;
+}
+
+.header__burger_btn svg {
+  fill: none;
+  stroke: #464646;
+  stroke-width: 2px;
+  fill-rule: evenodd;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+}
+
+.header__burger_btn:hover svg {
+  stroke: #f38364;
+  stroke-width: 2px;
+  fill-rule: evenodd;
+}
+
+.slider {
+  background-color: #353535;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.slider__btn svg {
+  stroke: #3a3939;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+}
+
+.slider__btn:hover svg {
+  stroke: #f38364;
+}
+
+.slider__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #d6d5d5;
+  height: 709px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.slider__title {
+  font-family: 'Big Noodle Titling';
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+
+.slider__text {
+  font-family: 'Big Noodle Titling';
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: 24px 0 167px 0;
+}
+
+.slider__image {
+  background-color: transparent;
+}
+
+.slider__bottom_text {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 19px 0 45px 0;
 }
 /*# sourceMappingURL=style.css.map */
