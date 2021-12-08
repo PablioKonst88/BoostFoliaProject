@@ -12,7 +12,7 @@
 }
 
 .wrapper {
-  width: 1010px;
+  width: 1000px;
   margin: 0 auto;
   outline: 1px solid red;
 }
@@ -89,7 +89,6 @@
 
 .slider {
   background-color: #353535;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,5 +160,109 @@
   font-weight: 700;
   color: #ffffff;
   padding: 19px 0 45px 0;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.about__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__title {
+  font-family: 'Big Noodle Titling';
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #3d3d3d;
+  border-bottom: 3px solid #f38364;
+  padding-top: 95px;
+}
+
+.about__text-cont {
+  width: 550px;
+  text-align: center;
+}
+
+.about__text {
+  font-family: Roboto;
+  font-size: 14.1px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #696969;
+  padding-top: 29px;
+}
+
+.about__carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 22px;
+  width: 100%;
+  padding: 60px 0 119px 0;
+}
+
+.about__cart {
+  width: 320px;
+  height: 196px;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px 0 45px;
+}
+
+.about__cart-images {
+  width: 60px;
+  height: 58px;
+  padding-top: 33px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.about__cart-image {
+  position: absolute;
+  bottom: 0;
+}
+
+.about__cart-title {
+  font-family: Roboto;
+  font-size: 17.7px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #707070;
+  padding-top: 24px;
+}
+
+.about__cart-text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 100;
+  letter-spacing: 0.025em;
+  color: #707070;
+  padding: 16px 0 24px 0;
 }
 /*# sourceMappingURL=style.css.map */
