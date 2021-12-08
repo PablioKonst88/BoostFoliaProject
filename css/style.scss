@@ -8,6 +8,7 @@ $orangecolor:#f38364;
     src: url(../fonts/BigNoodleTitling.ttf); /* Путь к файлу со шрифтом */
    }
 $wrapper_width:1000px;
+
 .wrapper {
     width: $wrapper_width;
     margin:0 auto;
@@ -241,6 +242,90 @@ width: 100%;
         // text-align:center;
     }
 }
+.video {
+    
+    // justify-content: space-around;
+    background-color: #171f23;
+    // .video__boxes
+    &__main-cont{
+        display: flex;
+        width:1370px;
+        margin:0 auto;
+    }
+    &__boxes {
+        width:680px;
+        height: 430px;
+    }
+
+    // .video__box-text
+
+    &__box-text {
+        display:flex;
+        flex-direction: column;
+        text-align:center;
+        justify-content: center;
+        background-color: #171f23;
+
+    }
+
+    // .video__title
+
+    &__title {
+        font-family: Roboto;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #e7e7e7;
+        padding-top:130px;
+    }
+    &__text-box{
+        width:470px;
+        outline: 1px solid red;
+    }
+    
+
+    // .video__text
+
+    &__text {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 100;
+        color: #696969;
+        padding-top:28px;
+    }
+
+    // .video__text-btn
+
+    &__text-btn {
+        border: none;
+        width: 127px;
+        height: 35px;
+        background-color: #e84c3d;
+        color:#eadbd9;
+        margin-top:50px;
+        margin-bottom: 100px;
+    }
+
+    // .video__viddiv
+
+    &__viddiv {
+        position: relative;
+        background-image: url(../images/video/bg_copy_5536.jpg);
+        background-repeat: no-repeat;
+    }
+    &__glass{
+        position: absolute;
+        background-color: #171f23;
+        opacity: 0.7;
+    }
+
+    // .video__image
+
+    &__image {
+    }
+}
+
 
 
 
