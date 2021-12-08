@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Big Noodle Titling; /* Гарнитура шрифта */
+    src: url(../fonts/BigNoodleTitling.ttf); /* Путь к файлу со шрифтом */
+   }
+$wrapper_width:1010px;
+.wrapper {
+    width: $wrapper_width;
+    margin:0 auto;
+    outline: 1px solid red;
+}
+
+.header {
+background-color: #f8f6f6;
+
+    &__wrap {
+        display:flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    &__logo_link {
+            text-decoration: none;
+        }
+    &__logo_link svg{
+        fill:black;
+        margin-right: 25px;
+    }
+
+    &__title {
+        font-family: 'Big Noodle Titling', sans-serif;
+        font-size: 40px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        color: #696969;
+        padding:57px 0 57px 0;
+    }
+}
+
