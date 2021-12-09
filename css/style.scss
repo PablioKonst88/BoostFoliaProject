@@ -457,6 +457,7 @@ background-color: #f8f6f6;
         display:flex;
         align-content: space-between;
         margin-top:80px;
+        gap:22px;
     }
 
     // .about__left-div
@@ -545,16 +546,31 @@ background-color: #f8f6f6;
     // .about__right-div
 
     &__right-div {
+        width: 661px;
+        height: 436px;
+        background-color: #ebebeb;
+        text-align: start; 
     }
 
     // .about__rgd-title
 
     &__rgd-title {
+        font-family: 'Roboto Condensed';
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #3d3d3d;
     }
 
     // .about__rgd-text
 
     &__rgd-text {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 100;
+        color: #858383;
     }
 
     // .about__rgd-box
@@ -565,12 +581,13 @@ background-color: #f8f6f6;
     // .about__progress
 
     &__progress {
+        margin:6px 0;
         position: relative;
-        width: 600px;
-        height: 20px;
+        width: 369px;
+        height: 1px;
         overflow: hidden;
-        background: #ff3232;
-        background: linear-gradient(to right, #ff3232 0%,#ff9600 33%,#ffff00 66%,#00ff00 100%);
+        background: #e84c3d;
+        
     }
 
     // .about__grayback
@@ -581,18 +598,29 @@ background-color: #f8f6f6;
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: linear-gradient(to right, transparent 0%, transparent 50%, #fff 50%, #fff 100%);
-        background-size: 6px 100%; /* Ширина деления = 6px / 2 = 3px */
+        // background-image: linear-gradient(to right, transparent 0%, transparent 50%, #fff 50%, #fff 100%);
+        // background-size: 6px 100%; /* Ширина деления = 6px / 2 = 3px */
     }
 
     // .about__strips
 
     &__strips {
         position: relative;
-        left: 79%; /* Текущее состояние */
         width: 100%;
         height: 100%;
-        background-color: #ddd;
+        background-color: #fff;
+    }
+    &__strips-1{
+        left: 88%; /* Текущее состояние */
+    }
+    &__strips-2{
+        left: 92%; /* Текущее состояние */
+    }
+    &__strips-3{
+        left: 90%; /* Текущее состояние */
+    }
+    &__strips-4{
+        left: 98%; /* Текущее состояние */
     }
 }
 

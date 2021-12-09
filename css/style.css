@@ -480,6 +480,7 @@
   -ms-flex-line-pack: justify;
       align-content: space-between;
   margin-top: 80px;
+  gap: 22px;
 }
 
 .about__left-div {
@@ -560,14 +561,37 @@
   border: none;
 }
 
+.about__right-div {
+  width: 661px;
+  height: 436px;
+  background-color: #ebebeb;
+  text-align: start;
+}
+
+.about__rgd-title {
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #3d3d3d;
+}
+
+.about__rgd-text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #858383;
+}
+
 .about__progress {
+  margin: 6px 0;
   position: relative;
-  width: 600px;
-  height: 20px;
+  width: 369px;
+  height: 1px;
   overflow: hidden;
-  background: #ff3232;
-  background: -webkit-gradient(linear, left top, right top, from(#ff3232), color-stop(33%, #ff9600), color-stop(66%, #ffff00), to(#00ff00));
-  background: linear-gradient(to right, #ff3232 0%, #ff9600 33%, #ffff00 66%, #00ff00 100%);
+  background: #e84c3d;
 }
 
 .about__grayback {
@@ -576,18 +600,32 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(50%, transparent), color-stop(50%, #fff), to(#fff));
-  background-image: linear-gradient(to right, transparent 0%, transparent 50%, #fff 50%, #fff 100%);
-  background-size: 6px 100%;
-  /* Ширина деления = 6px / 2 = 3px */
 }
 
 .about__strips {
   position: relative;
-  left: 79%;
-  /* Текущее состояние */
   width: 100%;
   height: 100%;
-  background-color: #ddd;
+  background-color: #fff;
+}
+
+.about__strips-1 {
+  left: 88%;
+  /* Текущее состояние */
+}
+
+.about__strips-2 {
+  left: 92%;
+  /* Текущее состояние */
+}
+
+.about__strips-3 {
+  left: 90%;
+  /* Текущее состояние */
+}
+
+.about__strips-4 {
+  left: 98%;
+  /* Текущее состояние */
 }
 /*# sourceMappingURL=style.css.map */
