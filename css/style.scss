@@ -456,7 +456,7 @@ background-color: #f8f6f6;
     &__box{
         display:flex;
         align-content: space-between;
-        margin-top:80px;
+        margin:80px 0 100px 0;
         gap:22px;
         width: 100%;
     }
@@ -593,6 +593,7 @@ background-color: #f8f6f6;
         height: 112px;
         display: flex;
         justify-content: space-between;
+        
     }
    
 		// .about__text-box
@@ -679,6 +680,157 @@ background-color: #f8f6f6;
 	}
 }
 
+.features {
+    background-color: #171f23;
+    // .features__wrap
+
+    &__wrap {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    // .features__title
+
+    &__title {
+        font-family: 'Roboto - Condensed';
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+        color: #f6f6f6;
+        padding-top:60px;
+    
+    }
+    &__span{
+        border-bottom:1px solid #404040;
+        padding-bottom:5px;
+    }
+
+    // .features__carts
+
+    &__carts {
+        display:flex;
+        justify-content: space-between;
+        padding-top:45px;
+        max-width:900px;
+        gap:130px;
+        padding-bottom:65px;
+        
+    }
+
+    // .features__cart
+
+    &__cart {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        
+    }
+
+    // .features__img
+
+    &__img-div{
+        height:57px;
+    }
+
+    // .features__cart-title
+
+    &__cart-title {
+        padding-top:30px;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #f6f6f6;
+    }
+
+    // .features__cart-number
+
+    &__cart-number {
+        padding-top:30px;
+        font-family: Roboto;
+        font-size: 48px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #f6f6f6;
+    }
+}
+.posts{
+    &__title{
+        border:none;
+    }
+    &__title-span{
+        border-bottom:1px solid #f4511e;
+    }
+
+    // .posts__carts
+
+    &__carts {
+        display: flex;
+        justify-content: space-between;
+       
+        gap:10px;
+        width: 100%;
+        padding:60px 0 119px 0;
+    }
+
+    // .about__cart
+
+    &__cart {
+        width: 322px;
+        height: 425px;
+        background-color: #ebebeb;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 0 45px;
+
+    }
+    &__cart-images{
+        width: 100%;
+        height:219px;
+        // padding-top:33px;
+        position: relative;
+        margin:0 auto;
+
+    }
+
+    // .about__cart-image
+
+    // &__cart-image {
+    //     position: absolute;
+    //     bottom: 0;
+    // }
+
+    // .about__cart-title
+
+    &__cart-title {
+        font-family: Roboto;
+        font-size: 17.7px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #707070;
+        padding-top:24px;
+    }
+
+    // .about__cart-text
+
+    &__cart-text {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 100;
+        letter-spacing: 0.025em;
+        color: #707070;
+        padding:16px 0 24px 0;
+        // text-align:center;
+    }
+}
 
 
 
