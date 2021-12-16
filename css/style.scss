@@ -992,3 +992,48 @@ $wrapper_width: 1000px;
         margin-top: 0;
     }
 }
+details summary::-webkit-details-marker {
+    display: none;
+}
+details > summary {
+    list-style: none;
+}
+.map {
+    background-color: #0c1215;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__see-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    &__title {
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        padding: 30px 0 30px 0;
+        margin-right: 10px;
+    }
+    &__see-div img:hover {
+        box-shadow: 0 0 20px #f6744b;
+    }
+    &__nav-div {
+        position: absolute;
+        top: 90px;
+        left: 25%;
+        width: 500px;
+        height: 400px;
+    }
+}
+/*bgc:#ffffff10;
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);*/
