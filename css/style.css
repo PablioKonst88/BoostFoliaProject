@@ -14,7 +14,6 @@
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 
 .header {
@@ -1150,10 +1149,61 @@ details > summary {
 
 .map__nav-div {
   position: absolute;
-  top: 90px;
+  top: -400px;
   left: 25%;
   width: 500px;
   height: 400px;
+}
+
+.footer {
+  background-color: #171f23;
+}
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__img {
+  margin: 50px 0 10px 0;
+}
+
+.footer__title {
+  font-family: "Big Noodle Titling";
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.footer__text {
+  font-family: "Roboto - Condensed";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 10px 0 15px 0;
+}
+
+.footer__soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 /*bgc:#ffffff10;
