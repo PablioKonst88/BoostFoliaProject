@@ -92,6 +92,14 @@ $wrapper_width: 1000px;
         height: 709px;
         justify-content: flex-end;
     }
+    &__wrap svg {
+        height: 80px;
+        width: 40px;
+        fill: white;
+    }
+    &__wrap svg:hover {
+        fill: #f38364;
+    }
 
     // .slider__title
 
@@ -209,6 +217,12 @@ $wrapper_width: 1000px;
         position: absolute;
         bottom: 0;
     }
+    &__cart-images svg {
+        fill: #f4511e;
+    }
+    &__cart-images svg:hover {
+        fill: hsl(2, 91%, 54%);
+    }
 
     // .about__cart-title
 
@@ -298,6 +312,7 @@ $wrapper_width: 1000px;
     }
     &__text-btn:hover {
         border-bottom: 2px solid #b11000;
+        box-shadow: 0 0 10px #f6744b;
     }
 
     // .video__viddiv
@@ -321,8 +336,17 @@ $wrapper_width: 1000px;
     // .video__image
 
     &__viddiv-btn {
-        background-color: none;
         border: none;
+        outline: none;
+        width: 91.44mm;
+        height: 91.44mm;
+    }
+    &__viddiv-btn svg {
+        fill: white;
+        background-color: #171f23;
+    }
+    &__viddiv-btn:hover svg {
+        fill: #f6744b;
     }
 }
 .works {

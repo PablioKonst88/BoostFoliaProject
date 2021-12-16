@@ -130,6 +130,16 @@
           justify-content: flex-end;
 }
 
+.slider__wrap svg {
+  height: 80px;
+  width: 40px;
+  fill: white;
+}
+
+.slider__wrap svg:hover {
+  fill: #f38364;
+}
+
 .slider__title {
   font-family: "Big Noodle Titling";
   font-size: 72px;
@@ -244,6 +254,14 @@
   bottom: 0;
 }
 
+.about__cart-images svg {
+  fill: #f4511e;
+}
+
+.about__cart-images svg:hover {
+  fill: #f4261f;
+}
+
 .about__cart-title {
   font-family: Roboto;
   font-size: 17.7px;
@@ -325,6 +343,8 @@
 
 .video__text-btn:hover {
   border-bottom: 2px solid #b11000;
+  -webkit-box-shadow: 0 0 10px #f6744b;
+          box-shadow: 0 0 10px #f6744b;
 }
 
 .video__viddiv {
@@ -351,8 +371,19 @@
 }
 
 .video__viddiv-btn {
-  background-color: none;
   border: none;
+  outline: none;
+  width: 91.44mm;
+  height: 91.44mm;
+}
+
+.video__viddiv-btn svg {
+  fill: white;
+  background-color: #171f23;
+}
+
+.video__viddiv-btn:hover svg {
+  fill: #f6744b;
 }
 
 .works {
