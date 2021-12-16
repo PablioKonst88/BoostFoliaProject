@@ -412,6 +412,11 @@
   outline: 1px solid black;
 }
 
+.works__cart img {
+  width: 273px;
+  height: 175px;
+}
+
 .works__categories {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -541,6 +546,10 @@
   height: 134px;
   border-radius: 50%;
   background-color: #f26c4f;
+  background-image: url(../images/about/men-gcf372fe33_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
 }
 
 .about__ld-title {
