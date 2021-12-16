@@ -923,3 +923,72 @@ $wrapper_width: 1000px;
         box-shadow: 0 0 10px #f6744b;
     }
 }
+
+.touch {
+    &__title {
+        border: none;
+    }
+    &__title-span-up {
+        border-bottom: 3px solid #f4511e;
+    }
+    &__fildset-div {
+        width: 770px;
+        display: flex;
+        flex-direction: column;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #696969;
+        margin: 95px 0 60px 0;
+    }
+    &__up-div {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    &__input {
+        width: 45%;
+        border: none;
+    }
+    &__input-all {
+        width: 100%;
+        margin-top: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #cacaca;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #696969;
+        padding: 0 15px 0 15px;
+    }
+    &__input-last {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    &__legend {
+    }
+
+    &__title-span {
+        color: #f6744b;
+    }
+    &__btn {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        width: 203px;
+        height: 51px;
+        background-color: #f6744b;
+        margin-bottom: 80px;
+        margin-top: 0;
+    }
+}
