@@ -420,6 +420,16 @@ $wrapper_width: 1000px;
         align-content: space-between;
         height: 36px;
     }
+    &__mainbox svg {
+        // width: 16px;
+        // height: 27px;
+        fill: #5d5d5d;
+    }
+    &__mainbox svg:hover {
+        // width: 16px;
+        // height: 27px;
+        fill: white;
+    }
     &__arrow {
         width: 16px;
         height: 27px;
@@ -521,13 +531,6 @@ $wrapper_width: 1000px;
         align-content: space-between;
         gap: 10px;
     }
-
-    // .about__socimg
-
-    &__socimg {
-    }
-
-    // .about__ld-btnsdiv
 
     &__ld-btnsdiv {
         padding-top: 40px;
@@ -796,15 +799,20 @@ $wrapper_width: 1000px;
         height: 218px;
         position: relative;
         margin: 0 auto;
-        outline: 1px solid red;
+        // outline: 1px solid red;
         transition: 0.5s;
+    }
+    &__cart-image {
+        width: 100%;
+        height: 218px;
     }
 
     &__cart-sub-img {
         position: absolute;
         width: 100%;
         height: 218px;
-        background-image: url(../images/blog-posts/dgi.png);
+        background-color: #ffffff10;
+        backdrop-filter: blur(12px);
         display: none;
         transition: 0.5s;
     }
